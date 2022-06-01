@@ -6,7 +6,7 @@ charset-normalizer==2.0.12
 colorama==0.4.4
 cryptography==37.0.2
 decorator==4.4.2
-google-images-download==2.8.0
+git+https://github.com/Joeclinton1/google-images-download@patch-1
 h11==0.13.0
 idna==3.3
 imageio==2.19.3

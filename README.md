@@ -28,16 +28,20 @@ $ python main.py
 * Enter your topic of interest and the number of images you want to DOWNLOAD.
 * The program will automatically create a folder called ```downloads/``` and download the images.
 
-![Starting the game](https://i.imgur.com/v91OK1u.png?1)
-
+![Selecting topic and images](https://user-images.githubusercontent.com/44535804/171313642-c6bf99ba-0609-46df-9649-8e03f88bb5dd.png)
 
 ### Delete Unwanted Pictures and set Duration
 * After downloading the images you need to go into the download folder and MANUALLY delete any image you do not want.
+
+![delete unwanted](https://user-images.githubusercontent.com/44535804/171313795-9f1c2174-00ac-4447-9264-1755931fdb33.png)
+
 * After you have MANUALLY deleted all the images you do not want type ```1``` on the command prompt.
 * After that select the duration of each image during the video.
 
-![The game](https://i.imgur.com/gbS7zUb.png)
+![deleting](https://user-images.githubusercontent.com/44535804/171313761-853b5bc0-84a9-4103-b5f2-4335d1744084.png)
 
 ### Rendering the video
 * The program then will take a while to render your video.
 * The final video will be in the same directory of the project and will be called ```movie.mp4```
+
+![output](https://user-images.githubusercontent.com/44535804/171313826-7ea88564-aa5a-4f77-9d0a-d5a70bc082e4.png)

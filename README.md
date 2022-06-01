@@ -3,7 +3,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [How to play](#how-to-play)
+* [How to use](#how-to-use)
 
 ## General Info
 This is an old project that I recently updated and reuploaded to Github. The project is a python application that is used to automize the process of creating a Voice Over video which can be used as a background for narrating a news story, a presentation, etc.
@@ -20,24 +20,24 @@ To run this project, install requirements.txt and then just run the main.py file
 ```
 $ cd ../Easy-VoiceOver
 $ pip install -r requirements.txt
-$ py main.py
+$ python main.py
 ```
 
 ## How to Use
-### Starting the Game
-* First enter the number of players and the name of each player.
-* The first player will choose a starting piece.
-* To choose a piece you need to input the index of your desired piece.
+### Selecting your topic and number of images
+* Enter your topic of interest and the number of images you want to DOWNLOAD.
+* The program will automatically create a folder called ```downloads/``` and download the images.
 
 ![Starting the game](https://i.imgur.com/v91OK1u.png?1)
 
 
-### The Game
-* The rules of the game are available at https://www.coololdgames.com/tile-games/dominoes/cuban/
-* Each turn you will be able to play a piece by inputting the index of your desired piece.
-* The image below shows the table, player's pieces and the turn number.
+### Delete Unwanted Pictures and set Duration
+* After downloading the images you need to go into the download folder and MANUALLY delete any image you do not want.
+* After you have MANUALLY deleted all the images you do not want type ```1``` on the command prompt.
+* After that select the duration of each image during the video.
 
 ![The game](https://i.imgur.com/gbS7zUb.png)
 
-### Winning the Game
-* The game will end when none of the players can play any pieces or when a player runs out of pieces.
+### Rendering the video
+* The program then will take a while to render your video.
+* The final video will be in the same directory of the project and will be called ```movie.mp4```
